@@ -7,6 +7,32 @@
   pointer-events: none;
 }
 
+.container {
+  width: 48vw;
+  margin-top: 10rem;
+  display: flex;
+  margin-left: 20rem;
+  justify-content: space-between;
+}
+.card {
+  width: 80vw;
+  height: 5rem;
+  border: 1px solid #aaa;
+  margin: 10px auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 25px;
+  background-color: #ebd5ed;
+}
+.mini-container {
+  width: 30rem;
+}
+.text {
+  width: 40vw;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
